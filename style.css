@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+#login{
+    padding-left: 50px;
+}
+
+#sign_{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+   
+}
+#sign_:hover{
+    cursor: pointer;
+}
+
+#login_{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+    /* color: black; */
+
+}
+
+.search_input{ 
+    outline: none;
+}
+
+ 
+
+
+#login_:hover{
+    color: orange;
+    cursor:pointer;
+}
+#input_{
+    width: 620px;
+    height: 60px;
+    border: 1px solid #FC8019;
+}
+input{
+    border: none;
+    width: 330px;
+    height: 50px; 
+}
+#loc_{
+    border: none;
+     background-color: white;
+    width: 137px;
+    height: 55px;
+    
+}
+#find_f{
+    border: none;
+    background-color: #FC8019;
+    font-size: 20px;
+    width: 140px;
+    height: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.black_, .grey_{
+  color: black;
+  text-decoration: none;
+}
+.grey_{
+    color: rgb(157, 157, 157);
+}
+
+
+#login_img{
+    background-image: url(./image/foodImg.webp);
+    height: 90vh;
+    width: 50%;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+#login_comp{ 
+    display: flex; 
+    justify-content: space-between;
+ }
+
+ #stack
+ {
+    background-color: black;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+#stack .cards_{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+#stack .cards_ img{
+    height: 200px;
+}
+
+#both{
+    display: flex;
+    width: 50%;
+}
+
+#add
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#both img{
+    height: 400px;
+}
+
+#add .text{
+    padding: 100px 5px 0px 100px;
+
+}
+
+#add .text h2{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.63)
+}
+
+#add .buttons_{
+    display: flex;
+
+}
+
+#add button img{
+    width: 150px;
+
+}
+
+#add button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: black;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.btn img{
+
+    height: 45px;
+    border-radius: 30px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn button{
+    border: 2px solid grey;
+    border-radius: 30px;
+    background: none;
+}
